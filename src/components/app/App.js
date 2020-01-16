@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Courselist from "../courselist/courselist";
 import Forum from "../Forum/Forum";
 import Mentor from "../Mentor/Mentor";
-import TutorsList from "../TutorsList/TutorsList";
+import Tutors from "../Tutors/Tutors";
 import "./App.css";
 import "fullpage.js/vendors/scrolloverflow"; // Optional. When using scrollOverflow:true
 import ReactFullpage from "@fullpage/react-fullpage";
@@ -57,26 +57,12 @@ class App extends Component {
       }
     ]
   };
-  //   render() {
-  //     return (
-  //       <div>
-  //         <Navbar />
-  //         <Courselist courses={this.state.courses} />
-  //         <Forum />
-  //         <Mentor />
-  //         <TutorsList prof={this.state.prof} />
-  //       </div>
-  //     );
-  //   }
-  // }
-
-  // export default App;
 
   render() {
     return (
       <ReactFullpage
         scrollOverflow={true}
-        sectionsColor={["black"]}
+        sectionsColor={["rgb(13,22,22)", "#282c34", "#282c34"]}
         render={({ state, fullpageApi }) => {
           return (
             <div id="fullpage-wrapper">
@@ -90,9 +76,13 @@ class App extends Component {
                 <div className="slide">
                   <Mentor fx={() => fullpageApi.moveTo(3, 1)} />
                 </div>
-                <div className="slide">
-                  <TutorsList prof={this.state.prof} />
-                </div>
+                {this.state.prof.map(tutor => {
+                  return (
+                    <div className="slide">
+                      <Tutors tutor={tutor} />
+                    </div>
+                  );
+                })}
               </div>
             </div>
           );
