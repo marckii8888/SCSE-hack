@@ -39,8 +39,7 @@ class App extends Component {
         name: "Dr. Ok and Ok",
         subject: "Operating Systems",
         email: "SoandSo@e.ntu.edu.sg",
-        pic:
-          /*"https://images.unsplash.com/photo-1464982326199-86f32f81b211?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"*/ ""
+        pic: "https://research.ntu.edu.sg/expertise/AcademicProfile/Pages/StaffPhoto.aspx?ST_EMAILID=arvinde"
       },
       {
         name: "Dr. Near and Far",

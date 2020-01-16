@@ -9,8 +9,8 @@
 .tutors .image-container {
   height: 16.66rem;
   margin-bottom: 1rem;
-  width: 100%;
-  background-color: burlywood;
+  padding-left: 10%;
+  width: 10%;
 }
 
 .tutors h1 {
