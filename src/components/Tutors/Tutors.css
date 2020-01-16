@@ -1,15 +1,20 @@
 .tutors {
-  display: inline;
+  /* display: inline; */
   flex-direction: column;
   justify-content: space-between;
   margin: 0 0.5rem 2.3rem 0.5rem;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./note.jpg");
+    background-size: cover;
 }
 
 .tutor-info{
-  border-style: solid;
+  border-top: solid;
+  border-bottom: solid;
   border-width: medium;
   border-color: whitesmoke;
   justify-content: left;
+  
 }
 
 .tutors .image-container {
@@ -18,6 +23,7 @@
   margin-left: 10rem;
   width: 15%;
   align-content: center;
+  
 }
 
 .tutors h1 {
