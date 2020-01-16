@@ -1,0 +1,29 @@
+.courses {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 12rem;
+  padding-top: 2.5rem;
+  text-align: center;
+}
+
+.courses h2 {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-style: solid;
+  border-color: #66fcf1;
+  padding: 0.72rem 1.7rem;
+  color: #ffffff;
+  transition: background-color 0.5s;
+}
+
+.courses h2 a {
+  text-decoration: none;
+  color: white;
+}
+
+.courses h2:hover {
+  cursor: pointer;
+  background-color: #45a29e;
+}

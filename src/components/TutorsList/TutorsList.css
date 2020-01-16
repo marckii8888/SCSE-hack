@@ -1,0 +1,7 @@
+.tutors {
+  display: inline-flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 5rem 25%;
+  background-color: whitesmoke;
+}

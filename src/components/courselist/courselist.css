@@ -1,0 +1,29 @@
+.courselist-container {
+  height: 41rem;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./books.jpg");
+  /* background-repeat: no-repeat; */
+  background-size: cover !important;
+  margin: 0 auto;
+}
+
+.courselist {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: 25rem;
+}
+
+.courselist-container h1 {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  color: rgb(221, 221, 221);
+  transform: scaleY(1.1);
+  padding-top: 10%;
+}
+
+.courselist-container p {
+  color: #c5c6c7;
+  text-align: center;
+}

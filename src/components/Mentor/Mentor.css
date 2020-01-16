@@ -1,0 +1,45 @@
+.mentor {
+  height: 41rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./mentoring.jpg");
+  background-size: cover;
+}
+
+.mentor-text {
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  margin-top: 5%;
+  transform: translate(-50%, -50%);
+  color: rgb(221, 221, 221);
+}
+
+.mentor-text h1 {
+  transform: scaleY(1.1);
+}
+
+.mentor-text h2 {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 0.72rem 1.7rem;
+  color: #ffffff;
+  transition: background-color 0.5s;
+
+  border-style: solid;
+  border-radius: 3px;
+  border-color: #66fcf1;
+}
+
+.mentor-text h2 a {
+  text-decoration: none;
+  color: white;
+}
+
+.mentor-text h2:hover {
+  cursor: pointer;
+  background-color: #45a29e;
+}
