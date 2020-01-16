@@ -1,5 +1,4 @@
 .tutors {
-  /* display: inline; */
   flex-direction: column;
   justify-content: space-between;
   margin: 0 0.5rem 2.3rem 0.5rem;
@@ -24,6 +23,7 @@
   height: 16.66rem;
   margin-bottom: 1rem;
   margin-left: 10rem;
+  padding-top: 5%;
   width: 15%;
   align-content: center;
   
