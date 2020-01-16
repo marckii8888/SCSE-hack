@@ -21,7 +21,6 @@
 }
 
 .tutors h1 {
-  font-size: 4rem;
   color: whitesmoke;
   font-weight: 600;
   margin-top:1%;
@@ -33,7 +32,6 @@
   display: flex;
   justify-content: space-between;
   margin-left: 43rem;
-  font-size: 35px;
   align-items: center;
   color: whitesmoke;
 }
