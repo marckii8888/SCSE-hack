@@ -3,13 +3,13 @@
   flex-direction: column;
   justify-content: space-between;
   margin: 0 0.5rem 2.3rem 0.5rem;
-  text-align: center;
 }
 
 .tutor-info{
   border-style: solid;
   border-width: medium;
   border-color: whitesmoke;
+  justify-content: left;
 }
 
 .tutors .image-container {
@@ -17,15 +17,16 @@
   margin-bottom: 1rem;
   margin-left: 10rem;
   width: 15%;
-  background-color: burlywood;
+  align-content: center;
 }
 
 .tutors h1 {
   font-size: 4rem;
   color: whitesmoke;
   font-weight: 600;
-  margin-top: -20rem;
-  margin-left: 25rem;
+  margin-top:1%;
+  margin-left: 43rem;
+  align-items: center;
 }
 
 .tutors h2 {
@@ -40,4 +41,5 @@
 img {
   height: 100%;
   position: static;
+  justify-content:  center;
 }
