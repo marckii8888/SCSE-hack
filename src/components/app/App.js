@@ -31,26 +31,26 @@ class App extends Component {
       {
         name: "Dr Smitha K G",
         subject: "Advanced Computer Architecture",
-        email: "smitha",
+        email: "smitha@ntu.edu.sg",
         pic: "https://research.ntu.edu.sg/expertise/AcademicProfile/Pages/StaffPhoto.aspx?ST_EMAILID=smitha"
       },
 
       {
         name: "Assoc Prof Vun Chan Hua, Nicholas",
         subject: "Microprocessor",
-        email: "aschvun",
+        email: "aschvun@ntu.edu.sg",
         pic: "https://research.ntu.edu.sg/expertise/AcademicProfile/Pages/StaffPhoto.aspx?ST_EMAILID=aschvun"
       },
       {
         name: "Assoc Prof Goh Wooi Boon",
         subject: "Computer Architecture and Organisation",
-        email: "aswbgoh",
+        email: "aswbgoh@ntu.edu.sg",
         pic: "https://research.ntu.edu.sg/expertise/AcademicProfile/Pages/StaffPhoto.aspx?ST_EMAILID=aswbgoh"
       },
       {
         name: "Dr Sourav Sen Gupta",
         subject: "Introduction to Data Science and Artificial Intelligence",
-        email: "sg.sourav",
+        email: "sg.sourav@ntu.edu.sg",
         pic: "https://research.ntu.edu.sg/expertise/AcademicProfile/Pages/StaffPhoto.aspx?ST_EMAILID=sg.sourav"
       }
     ]
