@@ -6,6 +6,9 @@
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("./note.jpg");
     background-size: cover;
+  height: 100%;
+  margin-left: 0%;
+  margin-right: 0%;
 }
 
 .tutor-info{
