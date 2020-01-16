@@ -45,8 +45,7 @@ class App extends Component {
         name: "Dr. Near and Far",
         subject: "Software Engineering",
         email: "SoandSo@e.ntu.edu.sg",
-        pic:
-          /*"https://d96xf8nw30hcy.cloudfront.net/SFImage/Images/rhododendron-valley-sikkim.jpg"*/ ""
+        pic: "https://research.ntu.edu.sg/expertise/AcademicProfile/Pages/StaffPhoto.aspx?ST_EMAILID=aswbgoh"
       },
       {
         name: "Dr. Up and Down",
