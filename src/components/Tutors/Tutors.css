@@ -50,3 +50,21 @@ img {
   position: static;
   justify-content:  center;
 }
+
+@media only screen and (max-width: 560px) {
+  .tutors h1 {
+    color: whitesmoke;
+    font-weight: 600;
+    margin-top:1%;
+    margin-left: 1%;
+    align-items: center;
+  }
+  
+  .tutors h2 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1%;
+    align-items: center;
+    color: whitesmoke;
+  }
+}
