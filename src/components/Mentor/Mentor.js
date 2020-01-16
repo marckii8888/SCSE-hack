@@ -12,13 +12,12 @@ class Mentor extends Component {
     return (
       <div className="mentor">
         <div className="mentor-text">
-          <h1>CONNECT WITH YOUR MENTOR</h1>
+          <h1>CONTACT YOUR TUTOR</h1>
           <p>
-            Have any questions about your course? Approach your personal tutor
-            and get your doubts clarified. Your question will be emailed to your
-            respective tutor's email.
+            Do you have any questions about your course? <br/>Contact your tutor
+            and get your doubts clarified.
           </p>
-          <h2 onClick={this.props.fx}>Connect now</h2>
+          <h2 onClick={this.props.fx}>Contact now</h2>
         </div>
       </div>
     );

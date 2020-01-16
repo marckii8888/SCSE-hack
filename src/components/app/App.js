@@ -11,19 +11,19 @@ class App extends Component {
     courses: [
       {
         name: "Year 1",
-        url: "https://wastedpotnetial.discussion.community/?forum=773704 "
+        url: "https://wastedpotnetial.discussion.community/?forum=773872 "
       },
       {
         name: "Year 2",
-        url: "https://wastedpotnetial.discussion.community/?forum=773699"
+        url: "https://wastedpotnetial.discussion.community/?forum=773875"
       },
       {
         name: "Year 3",
-        url: "https://wastedpotnetial.discussion.community/?forum=773712"
+        url: "https://wastedpotnetial.discussion.community/?forum=773876"
       },
       {
         name: "Year 4",
-        url: "https://wastedpotnetial.discussion.community/?forum=773713"
+        url: "https://wastedpotnetial.discussion.community/?forum=773877"
       }
     ],
 

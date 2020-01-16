@@ -18,14 +18,14 @@ class Forum extends Component {
             WastedPotnetial is a forum for students to clarify their doubts with
             other students.
           </p>
-          <h2>
-            <a
-              href="https://wastedpotnetial.discussion.community"
+          <a
+              href="https://wastedpotnetial.discussion.community/?forum=773874"
               target="_blank"
             >
+          <h2>
               Go to Forum
-            </a>
           </h2>
+          </a>
         </div>
       </div>
     );

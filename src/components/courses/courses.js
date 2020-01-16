@@ -7,11 +7,11 @@ class courses extends Component {
     const { course } = this.props;
     return (
       <div className="courses">
+        <a  href={course.url} target="_blank">
         <h2>
-          <a href={course.url} target="_blank">
             {course.name}
-          </a>
         </h2>
+        </a>
       </div>
     );
   }

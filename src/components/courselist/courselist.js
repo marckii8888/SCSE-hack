@@ -8,7 +8,7 @@ class courselist extends Component {
     return (     
         <div className="courselist-container">
         <h1>COURSE MATERIALS</h1>
-        <p>Click on the year of the mod you wanna see :)</p>
+        <p>Check out your peers' notes!<br/> Click on the year of the modules you need.</p>
         <div className="courselist">
           {this.props.courses.map(course => {
             return <Courses course={course} />;
