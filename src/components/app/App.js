@@ -29,29 +29,29 @@ class App extends Component {
 
     prof: [
       {
-        name: "Dr. So and So",
-        subject: "Algorithms",
-        email: "SoandSo@e.ntu.edu.sg",
-        pic: "../Tutors/prof1.jpg"
+        name: "Dr Smitha K G",
+        subject: "Advanced Computer Architecture",
+        email: "smitha@ntu.edu.sg",
+        pic: "https://research.ntu.edu.sg/expertise/AcademicProfile/Pages/StaffPhoto.aspx?ST_EMAILID=smitha"
       },
 
       {
-        name: "Dr. Ok and Ok",
-        subject: "Operating Systems",
-        email: "SoandSo@e.ntu.edu.sg",
-        pic: "https://research.ntu.edu.sg/expertise/AcademicProfile/Pages/StaffPhoto.aspx?ST_EMAILID=arvinde"
+        name: "Assoc Prof Vun Chan Hua, Nicholas",
+        subject: "Microprocessor",
+        email: "aschvun@ntu.edu.sg",
+        pic: "https://research.ntu.edu.sg/expertise/AcademicProfile/Pages/StaffPhoto.aspx?ST_EMAILID=aschvun"
       },
       {
-        name: "Dr. Near and Far",
-        subject: "Software Engineering",
-        email: "SoandSo@e.ntu.edu.sg",
+        name: "Assoc Prof Goh Wooi Boon",
+        subject: "Computer Architecture and Organisation",
+        email: "aswbgoh@ntu.edu.sg",
         pic: "https://research.ntu.edu.sg/expertise/AcademicProfile/Pages/StaffPhoto.aspx?ST_EMAILID=aswbgoh"
       },
       {
-        name: "Dr. Up and Down",
-        subject: "Discrete Mathematics",
-        email: "SoandSo@e.ntu.edu.sg",
-        pic: ""
+        name: "Dr Sourav Sen Gupta",
+        subject: "Introduction to Data Science and Artificial Intelligence",
+        email: "sg.sourav@ntu.edu.sg",
+        pic: "https://research.ntu.edu.sg/expertise/AcademicProfile/Pages/StaffPhoto.aspx?ST_EMAILID=sg.sourav"
       }
     ]
   };
